@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:paddingTop="22dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.mdoery.swipeoverbuttonsdemo.SwipeOverButtonsActivity"
+    tools:showIn="@layout/activity_swipe_over_buttons"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inner_layout">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/surround_layout">
+        <RadioButton
+            android:id="@+id/lightestBtn"
+            style="@style/LightestFlowerRadioButton"
+            android:layout_width="118dp"
+            android:layout_height="150dp">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/lightBtn"
+            style="@style/LightFlowerRadioButton"
+            android:layout_width="118dp"
+            android:layout_height="150dp">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/darkBtn"
+            style="@style/DarkFlowerRadioButton"
+            android:layout_width="118dp"
+            android:layout_height="150dp">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/darkestBtn"
+            style="@style/DarkestFlowerRadioButton"
+            android:layout_width="118dp"
+            android:layout_height="150dp">
+        </RadioButton>
+    </LinearLayout>
+</LinearLayout>

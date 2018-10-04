@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SwipeOverButtonsDemo</string>
+    <string name="instructions">Swipe left to right to change background to black</string>
+</resources>

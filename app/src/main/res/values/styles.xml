@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="LightestFlowerRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/nothing1x1</item>
+        <item name="android:background">@drawable/lightest_flower</item>
+    </style>
+    <style name="LightFlowerRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/nothing1x1</item>
+        <item name="android:background">@drawable/light_flower</item>
+    </style>
+    <style name="DarkestFlowerRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/nothing1x1</item>
+        <item name="android:background">@drawable/darkest_flower</item>
+    </style>
+    <style name="DarkFlowerRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/nothing1x1</item>
+        <item name="android:background">@drawable/dark_flower</item>
+    </style>
+</resources>
