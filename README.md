@@ -7,7 +7,9 @@ In addition, there's a secret left-to-right swipe action that causes the backgro
 ### layout view ###
 
 This is what the application looks like in Android Studio's design view. There's a white frame indicating the ``LinearLayout``around the radio buttons.
+
 ![layout design view](https://raw.githubusercontent.com/mdoery/android-swipe-over-buttons-demo/master/android-studio-design-view-layout.png)
+
 [The boundaries of the ``LinearLayout`` are computed after the application's view is "inflated"](https://stackoverflow.com/questions/21926644/get-height-and-width-of-a-layout-programmatically?rq=1). This is the point when the boundaries can be measured correctly. Then, it's just a matter of checking to make sure the user's swipe does not stray outside the vertical bounds of the layout.
 
 ### Thanks! ###
